@@ -63,17 +63,17 @@ input::-webkit-input-placeholder {
 .index-device-left{
 	float: left;
 	border: 1px solid red;
-	margin-right: 450px;
-	display: inline-block;
+	width: 45vw;
 }
 
 .index-device-right{
-	background-color: d0d5dd;
+	background-color: #d0d5dd;
 	float: right;
 	border: 1px solid green;
-	display: inline-block;
+	width: 45vw;
 }
 
 .index-device{
-	inline-block: inline-block;
+	position: inline-block;
+	width: 99vw;
 }

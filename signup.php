@@ -53,47 +53,24 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Welcome to IoTracker!</h1>
-        <p>IoTracker is a simple and easy Internet Of Things (IoT) tracking software. IoTracker allows you
-		to view your IoT devices data in an easy to read format wherever and whenever you need it.
-		For more information on what IoTracker can do click the learn more button bellow!</p>
-        <p><a class="btn btn-primary btn-lg" href="signup.php" role="button">Sign in</a></p>
+        <h1>Register</h1>
+        <p>Fill out the form below to sign up for a IoTracker account!</p>
       </div>
     </div>
 
-    <div class="container index-device">
-      <!-- Example row of columns -->
-	  <div class="index-device-left">
-		  <div class="row">
-			<div class="col-md-4">
-			  <h2>Device 1</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-4">
-			  <h2>Device 2</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-4">
-			  <h2>Device 3</h2>
-			  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-			</div>
-		  </div>
-	  </div>
-	  <div class="index-device-right">
-		<p>feowihfweio weiokfhw oh gha ogigh ohgh b qgihg ghiroghh gorihg hgiorhgh oehg  oghego  hgoi[hg  h</p>
-	  </div>
-      <hr>
+    <form class="form-horizontal">
+        <div class="form-group">
+            Name: <input type="text" name="forename" class="control-label">
+            Email: <input type="text" name="email" class="control-label">
+            Password: <input type="text" name="password" class="control-label">
+            Confirm Password: <input type="text" name="confirmPassword" class="control-label">
+            <input type="submit" class="control-label">
+        </div>
+    </form>
 
-      <footer>
+    <footer>
         <p>&copy; 2016 Company, Inc.</p>
-      </footer>
+    </footer>
     </div> <!-- /container -->
 
 

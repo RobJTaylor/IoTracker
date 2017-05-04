@@ -77,3 +77,7 @@ input::-webkit-input-placeholder {
 	position: inline-block;
 	width: 99vw;
 }
+
+.center {
+	text-align: center;
+}

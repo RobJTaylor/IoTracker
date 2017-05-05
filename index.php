@@ -57,7 +57,7 @@
         <p>IoTracker is a simple and easy Internet Of Things (IoT) tracking software. IoTracker allows you
 		to view your IoT devices data in an easy to read format wherever and whenever you need it.
 		For more information on what IoTracker can do click the learn more button bellow!</p>
-        <p><a class="btn btn-primary btn-lg" href="signup.php" role="button">Sign in</a></p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
@@ -65,36 +65,52 @@
       <!-- Example row of columns -->
 	  <div class="index-device-left">
 		  <div class="row">
-			<div class="col-md-4">
+			<div class="col-md-9">
 			  <h2>Device 1</h2>
 			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
 		  </div>
 		  <div class="row">
-			<div class="col-md-4">
+			<div class="col-md-9">
 			  <h2>Device 2</h2>
 			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
 		  </div>
 		  <div class="row">
-			<div class="col-md-4">
+			<div class="col-md-9">
 			  <h2>Device 3</h2>
 			  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
 		  </div>
 	  </div>
-	  <div class="index-device-right">
-		<p>feowihfweio weiokfhw oh gha ogigh ohgh b qgihg ghiroghh gorihg hgiorhgh oehg  oghego  hgoi[hg  h</p>
+	  <div class="col-sm-3 col-md-2 index-device-right">
+	  <h2 class="header-device">Connected Devices</h2>
+		  <div class="col-md-9">
+			<h4>Smart Fridge 5000</h4>
+			<p>This device has been connected for x hours</p>
+			<hr>
+			<h4>Rob's Cheesy Laptop</h4>
+			<p>This device has been connected for x hours</p>
+			<hr>
+			<h4>Bike 'O Tron</h4>
+			<p>This device has been connected for x hours</p>
+			<hr>
+			<h4>Super Ice Cream maker</h4>
+			<p>This device has been connected for x hours</p>
+			<hr>
+			<h4>Smart Lights</h4>
+			<p>This device has been connected for x hours</p>
+		  </div>
 	  </div>
-      <hr>
+    </div> <!-- /container -->
+	<hr>
 
       <footer>
         <p>&copy; 2016 Company, Inc.</p>
       </footer>
-    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript

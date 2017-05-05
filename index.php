@@ -64,27 +64,21 @@
     <div class="container index-device">
       <!-- Example row of columns -->
 	  <div class="index-device-left">
+		<h1>Recent Devices</h1>
+		<hr>
+		<?php
+		for ($i = 0; $i < 3; $i++)
+		echo '
 		  <div class="row">
 			<div class="col-md-9">
-			  <h2>Device 1</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			  <h2>Device '.$i.'</h2>
+			  <p>This device has been connected since xx/xx/xx, its uptime percentage has been xx% and it has made xxx amount of readings.</p>
+			  <p>Reading 1: bla bla bla</p>
+			  <p>Reading 2: bla bla bla</p>
 			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-9">
-			  <h2>Device 2</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-			</div>
-		  </div>
-		  <div class="row">
-			<div class="col-md-9">
-			  <h2>Device 3</h2>
-			  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-			</div>
-		  </div>
+		  </div>';
+		?>
 	  </div>
 	  <div class="col-sm-3 col-md-2 index-device-right">
 	  <h2 class="header-device">Connected Devices</h2>
